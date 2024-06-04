@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* golobal css start */
+.containar{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+/* golobal css end */
+
+
+/* Header section css start */
+.header-section{
+    width: 100%;
+    float: left;
+background-color: rgb(234, 239, 240);
+}
+.logo{
+    padding: 15px 0px ;
+}
+
+a, a:hover{
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav{
+    padding: 24px 0px;
+    float: right;
+   
+}
+.nav ul li{
+    margin: 0px 12px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.nav ul li a:hover{
+            color: rgb(23, 223, 170);
+            padding: 20px;
+            background: rebeccapurple;
+            transition: 1s;
+    
+            
+}
+
+
+/* header-section end here */
+
+
+
+/* big banner start */
+.banner-section{
+    width: 100%;
+    float: left;
+    background:url('../img/Banner.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 70px 0px 40px;
+    
+}
+.banner-inner{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 80px 0px;
+
+
+}
+.banner-inner h1{
+    font-size: 70px;
+    color: aliceblue;
+    
+}
+
+.divider{
+    width: 40%;
+    height: 20px;
+    margin: 5px 0px;
+    color:rgb(146, 117, 222);
+
+    
+}
+
+
+.banner-inner p{
+color: white;
+font-size: 16px;
+margin: 55px 0px;
+}
+.banner-inner .btn-info{
+    border: 2px solid #15a4fa;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600px;
+    background: transparent;
+    padding: 10px;
+   
+}
+.icon img{
+    margin-top: 200px;
+}
+.banner-inner .btn-info:hover{
+    border: 2px solid rgb(235, 7, 7);
+
+    background: #15a4fa;
+    transition: 2s;
+    border-style: ridge;
+}
+/* body content start */
+
+.body-content{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #81c7f3;
+    display: inline-block;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+/* content code end */
+
+/* icon code start */
+
+.col-md-4{
+    width: 33.33%;
+    float: left;
+}
+
+.info, .devices, .minimal, .font-awesome{
+    margin: 10px 6px;
+    text-align: center;
+    float: left;
+    
+}
+/* icon code end */
+
+/* shocase start */
+.shocase{
+    background-color: #e5ebef;
+    text-align: center;
+    margin: 7px;
+    float: left;
+}
+.shocase, h1{
+    padding: 20px;
+}
+.sw-img, img{
+    margin: 5px;
+    padding: 7px 5p;
+}
+
+
+/* footer section */
+.col-md-12{
+    width: 100%;
+    background: url(../img/Stay.png);
+    text-align: center;
+    float: left;
+    display: block;
+}
+.form input{
+    width: 500px;
+    margin: 5px;
+    border: 2px solid #15a4fa;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600px;
+    background: transparent;
+    padding: 10px;
+}
+.btn-submit{
+    border: 2px solid #055890;
+    border-radius: 3px;
+    
+    background: transparent;
+    padding: 10px;
+    margin: 0px 10px 0px 195px;
+
+}
+.checkbox{
+margin: 0;
+padding: 0;
+   
+}
